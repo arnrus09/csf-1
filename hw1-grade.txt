@@ -1,0 +1,8 @@
+Grader Name: Royce Jensen
+Evergreen Login: jenroy30
+
+3/3
+
+Descriptive comments
+Some capitalized nonglobal variables
+Does retain hw1_test namespace
