@@ -1,0 +1,11 @@
+Create a dictionary with five entries, where the keys are the names of states, and the values are those states' capitals.
+
+Define a function that, given two numbers, returns 'positive' if the sum of those numbers is positive and 'negative if the sum is negative.
+
+Using one or more of the following dictionaries, write two statements using the id function about object equality (one that prints True and one that prints False).
+dict1 = {1:2, 3:4, 5:6}
+dict2 = {1:2, 3:4, 5:6}
+dict3 = dict1
+
+Use a for loop to add 1 to each item on the following list and print each total.
+list1 = [1, 2, 3, 4, 5]
