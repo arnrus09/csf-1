@@ -1,0 +1,57 @@
+Programming as a Way of Life
+Homework 6 Problems
+
+Group 3 
+Cameron Casey 
+Joe Clevenger 
+Problem 3 Data Structures
+
+Python supports several different classes of data structures, including dictionaries, lists, and tuples. These data structures are declared with different grouping symbols. For example 
+
+Dictionaries are declared with {} 
+Lists are declared with [] 
+Tuples are declared with () 
+
+Within the grouping symbols will be the elements of the data structure. 
+
+Dictionary = {0:'cat', 1:'dog', 2:'elephant'} 
+List = [0, 1, 2, 'bird', 5.0] 
+Tuples = (0, 5, 7) 
+
+For this problem, create a dictionary that uses the days of the week as keys and maps the numbers 1 through 7 to them in order starting with Sunday:1 (This dictionary will be known as dict1). Create a second dictionary that uses the numbers 1 through 12 as keys and maps them to the corresponding months of the year (This dictionary will be known as dict2). 
+Problem 4 Nested Data Structures
+
+You can also nest data structures within other data structures. It is, for example, possible to create a list of dictionaries or dictionary of tuples. Create a list that has the two dictionaries from the previous problem as its elements. What are the data types of the elements of this list? What data types are in the 0th element of the list? The 1st?
+Problem 5 Traversing Data Structures
+
+Using a for loop and your list from problem four, make another list that contains the first 7 months of the year. Your for loop should use the integer values from dict1 as keys to access the months from dict2. 
+
+Example:
+dict1 = {'Sunday':1, 'Monday':2, 'Tuesday':3, ...} 
+dict2 = {1:'January', 2:'February', 3:'March', ...} 
+listx = ['January', 'February', 'March', ...] 
+
+Problem 6 Using a Test File
+
+In homework 5 we were given a test file (tests.py). This file contains a great deal of useful information for solving the homework questions provided you know how to read it. The file contains a series of test functions that will implement the functions you write in election.py to test if your functions work properly when given inputs of the proper form. For example, if you look at the second function in tests.py, you will see a function called test_row_to_edge(). In this function are a series of assertions that call your row_to_edge() function from election.py. Your row_to_edge() function should give the same assertion value when given the predetermined input. 
+
+e.g. row1 = { "Dem": 5, "Rep": 90 } 
+assert row_to_edge(row1) == -85 
+
+This means that your function needs to produce -85 when given an input of { "Dem": 5, "Rep": 90 }. And from the information given about state edges, you know that it will do so by subtracting the value of 90 mapped to "Rep" from the value of 5 mapped to "Dem". 
+
+If the assertion is true, this means your function worked correctly and the file continues to run. If the assertion is false, your function did not give the desired output. 
+
+Open tests.py and look at the function test_state_edges(). What are some key differences between lines 31-32 and 34-36? Based on these assertions, what data type does your state_edges() function need to produce as an output? 
+
+Given: rows3 = [{'State': 'WA', 'Dem': '1.0', 'Rep': '0.1'}, 
+{'State': 'CA', 'Dem': '0.2', 'Rep': '1.3'}, 
+{'State': 'OR', 'Dem': '0.7', 'Rep': '0.5'}] 
+
+Write an assertion statement that would show your function is running correctly.
+Problem 7 Functions
+
+Homework 5 requires that you package your code in a series of functions. Take your for loop from problem 5 and place it within a function titled "month_getter". Give your function two arguments, dict1 and dict2. When you call month_getter(), you should get the same list of months as you did in problem 5, namely, a list of the first 7 months. 
+
+Test to see if your output is correct by using the following line of code: 
+assert month_getter(dict1,dict2) == ['January', 'February', 'March', 'April', 'May', 'June', 'July']
