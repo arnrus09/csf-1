@@ -1,8 +1,8 @@
 Do the following to receive credit:
 
-* Commit romeo-and-juliet.pdf from hw8
-* Finish and commit hw5 (elections.py) with first problem done correctly (get it to pass its test_state_edges in test.py)
-* Finish hw3 and hw4 and commit to github repo.
+* [DONE] Commit romeo-and-juliet.pdf from hw8
+* [DONE] Finish and commit hw5 (elections.py) with first problem done correctly (get it to pass its test_state_edges in test.py)
+* [DONE] Finish hw3 and hw4 and commit to github repo.
 * Write and submit self eval and faculty evals for me, Neal, and Sherri online at my.evergreen.edu
 
 Do all of the above by 5pm tomorrow (Friday).
