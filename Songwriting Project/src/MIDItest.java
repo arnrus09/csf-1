@@ -54,7 +54,7 @@ public class MIDItest {
 			track.add(makeEvent(128, 1, 56, 100, 44));
 			
 			sequencer.setSequence(seq);
-			sequencer.setTempoInBPM(90);
+			sequencer.setTempoInBPM(150);
 			sequencer.start();
 		} catch (Exception ex) {ex.printStackTrace();}
 	} //close play
@@ -69,5 +69,6 @@ public class MIDItest {
 		} catch (Exception e) { }
 		return event;
 	}
+	
 
 } //close class
